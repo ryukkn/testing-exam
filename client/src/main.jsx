@@ -18,6 +18,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Login from "./pages/Login.jsx";
 import SignUp from "./pages/SignUp.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       { path: '/shoes/men', element: <Men /> },
       { path: '/shoes/women', element: <Women /> },
       { path: '/shoes/kids', element: <Kids /> },
+      { path: '/about-us', element: <AboutUs /> },
       { path: '/product-details/:id', element: <ProductDetails /> },
       { path: '/search/:search', element: <SearchResults /> },
 
